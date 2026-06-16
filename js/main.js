@@ -8,7 +8,7 @@ function initCarousel(carousel) {
   let current = 0;
   const total = slides.length;
   let intervalId = null;
-  const delay = 4000;
+  const delay = 7000;
 
   if (!track || slides.length === 0 || !indicators) return;
 
